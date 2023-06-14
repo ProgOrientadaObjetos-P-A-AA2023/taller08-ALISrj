@@ -7,12 +7,6 @@ public class DocenteNombramiento extends Docente {
     private int numeroHorasExtra;
     private double sueldo;
 
-    public DocenteNombramiento(double vS, double vH, int nH) {
-        valorSueldo = vS;
-        valorHorasExtra = vH;
-        numeroHorasExtra = nH;
-    }
-
     public void establecerValorSueldo(double n) {
         valorSueldo = n;
     }

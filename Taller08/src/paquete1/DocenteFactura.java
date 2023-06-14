@@ -6,11 +6,6 @@ public class DocenteFactura extends Docente {
     private double valorIvaDescuento;
     private double valorCancelar;
 
-    public DocenteFactura(double vF, double vD) {
-        valorFactura = vF;
-        valorIvaDescuento = vD;
-    }
-
     public void establecerValorFactura(double n) {
         valorFactura = n;
     }
